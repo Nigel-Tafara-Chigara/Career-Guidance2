@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -59,3 +60,13 @@ app.get("/api/advice", async (req, res) => {
 app.listen(3001, () => {
   console.log("server is running");
 });
+=======
+import { registerRootComponent } from 'expo';
+
+import App from './App';
+
+// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
+// It also ensures that whether you load the app in Expo Go or in a native build,
+// the environment is set up appropriately
+registerRootComponent(App);
+>>>>>>> e3472ebd540b93708abbc940b298d827f2e3016e
